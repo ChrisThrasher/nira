@@ -1,0 +1,14 @@
+Language: Cpp
+BasedOnStyle: WebKit
+
+AlignAfterOpenBracket: Align
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+ColumnLimit: 120
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Priority: 1
+    Regex: '^<rational\/'
+QualifierAlignment: Left
